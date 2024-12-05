@@ -533,7 +533,7 @@ rule concat_SNVCNVSV:
 #     params:
 #         out_para = SAMPLE_OUTPUT_DIR + "/compareVCF/{sample}",
 #     conda:
-#         "envs/vcf_compare.yaml"
+#         "envs/VCF_compare.yaml"
 #     shell:
 #         """
 #         python2 /sybig/home/jiy/Downloads/Snakemake_pipeline/EvaluationData/genReads1-master/extra_utilities/vcf_compare.py \
