@@ -1,0 +1,15 @@
+name: dasa_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+# prefix: /envs/dasa_env
+dependencies:
+  - snakemake = 8.25.5
+#   - bwa =0.7.18
+#   - samtools =1.21
+#   - gatk4 = 4.6.1.0
+#   - bcftools = 1.21
+#   - picard = 3.3.80
+  # - trim-galore = 0.6.10
+  # - cutadapt = 4.9
